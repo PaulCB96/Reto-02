@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Sign Up</h1>
+        </header>
+        <section>
+            <form>
+                <label for="fname">First name</label>
+                <br>
+                <input 
+                    type="text"
+                    id="fname"
+                    minlength="6"
+                >
+                <br>
+                <label for="age">Age</label>
+                <br>
+                <input 
+                    type="number"
+                    id="age"
+                    max="120"
+                >
+                <br>
+                <label for="income">Income</label>
+                <br>
+                <input 
+                    type="number"
+                    id="income"
+                    max="120"
+                >
+                <br>
+                <label for="info">More info</label>
+                <br>
+                <textarea id="info" cols="30" rows="2"></textarea>
+                <br>
+                <label>Gender</label>
+                <br>
+                <input 
+                    type="radio" 
+                    name="gender"
+                    value="m">Male
+                <input 
+                    type="radio" 
+                    name="gender"
+                    value="f">Female
+                <input 
+                    type="radio" 
+                    name="gender"
+                    value="t">Trans
+                <br>
+                <label>Plan</label>
+                <br>
+                <select>
+                    <option selected disabled>Select plan</option>
+                    <option value="a">Plan A</option>
+                    <option value="b">Plan B</option>
+                    <option value="c">Plan C</option>
+                </select>
+                <br>
+                <input 
+                    type="checkbox"
+                    value="sub">Subscribe to Newsletter
+                <br>
+                <input 
+                    type="submit"
+                    value="Update"
+                >
+            </form>
+        </section>
+    </main>
+</body>
+</html>
